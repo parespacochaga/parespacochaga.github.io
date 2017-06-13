@@ -23,20 +23,20 @@
       margin:auto;
     }
     #text {
-      margin-top: 25px;
+      margin-top: 20px;
       margin-left: 30px;
       margin-right: 30px;
       text-transform: uppercase;
       font-weight: bold;
-      font-size: 15pt;
+      font-size: 12pt;
     }
     #product {
       color: #989798;
-      text-align: left;
+      text-align: center;
     }
     #price {
       color: #4A4A4A;
-      text-align: right;
+      text-align: center;
     }
     #checkout {
       margin-top: 25px;
@@ -47,29 +47,29 @@
 <body>
 
   <div id="header">
-    <img id="logo" src="/img/gafas-logo.png"/>
+    <img id="logo" src="/img/suprv-logo1.png"/>
   </div>
 
   <div id="glasses">
-    <img src="/img/gafas-img.png"/>
+    <img src="/img/suprv-img1.png"/>
   </div>
 
   <div id="text">
-    <div id="product">Gafas Azules</div>
-    <div id="price">35,95 €</div>
+    <div id="product">Mi Vestido Azul</div>
+    <div id="price">39,90 €</div>
   </div>
 
   <form id="checkout" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
 
     <!-- Identify your business so that you can collect the payments. -->
-    <input type="hidden" name="business" value="paypal@misgafas.com">
+    <input type="hidden" name="business" value="misvestidos@azules.com">
 
     <!-- Specify a Buy Now button. -->
     <input type="hidden" name="cmd" value="_xclick">
 
     <!-- Specify details about the item that buyers will purchase. -->
-    <input type="hidden" name="item_name" value="GafasAzules">
-    <input type="hidden" name="amount" value="35.95">
+    <input type="hidden" name="item_name" value="Mi Vestido Azul">
+    <input type="hidden" name="amount" value="39.90">
     <input type="hidden" name="currency_code" value="EUR">
     <!-- <input type="hidden" name="no_shipping" value="1"> -->
 
